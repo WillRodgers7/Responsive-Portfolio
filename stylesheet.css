@@ -2,3 +2,6 @@ p {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: aquamarine;
 }
+footer {
+	float: right;
+}
