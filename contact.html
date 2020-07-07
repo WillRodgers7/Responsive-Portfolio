@@ -17,9 +17,10 @@
 
 	<body>
         <!---------------------------------------------------- PART 1 ----------------------------------------------------------->
+		
 		<!-- WEBSITES NAVBAR  -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">William Rodgers</a>
+			<a class="navbar-brand" id="logo" href="index.html">William Rodgers</a>
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -58,18 +59,19 @@
 
 		<!-- CONTACT FORM -->
 		<br />
-        <br />
-        
-        <div class="contact"<h1>CONTACT ME</h1>
-        </div>
+		<br />
+		
+		<!----------------------------------------------------PART 2 ----------------------------------------------------------->
+		
+		
+		<!-- CONTAINER FOR  INFO -->
+        <div class="contact container">
+			<h1>CONTACT ME</h1>
 
         <hr>
         <br />
         <br />
-
-        <!----------------------------------------------------PART 2 ----------------------------------------------------------->
-        <!-- Email adress and text -->
-
+		<form class="block form-horizontal">
 
         <!-- Name bar -->
             <div class="form-group">
@@ -115,11 +117,13 @@
             <!-- Submit button -->
             <div class="btn-group-toggle" data-toggle="buttons">
                 <label class="btn btn-secondary active">
-                  <input type="checkbox" checked> Submit
+					<input onClick="window.location.reload();" type="checkbox" checked> Submit</button>
                 </label>
-              </div>
-                
+			  </div>          
 		</form>
+		</div>
+		
+		
 
 				<!-- Footer -->
 				<div class="footer">

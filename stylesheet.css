@@ -2,6 +2,38 @@ p {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: aquamarine;
 }
-footer {
-	float: right;
+
+/* media query for nav background color change*/
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 500px) {
+	#profilePic {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+#logo {
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	/* Visual */
+	background: #4aaaa5;
+}
+
+.footer {
+	border-top: #4aaaa5 10px solid;
+	margin-top: 15px;
+	bottom: 0;
+	background-color: #343b3f;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+}
+
+#profilePic {
+	float: left;
+	width: 200px;
+	margin: 0 20px 10px 0;
 }
