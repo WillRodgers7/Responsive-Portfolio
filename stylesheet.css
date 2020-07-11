@@ -1,31 +1,11 @@
-body {
-	background: url(https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
-		no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-}
-
+/* ALL */
 h1 {
 	color: #4aaaa5;
 }
 
 p {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	padding-bottom: 100px;
 	color: #343b3f;
-}
-
-/* media query for nav background color change*/
-@media only screen and (max-width: 767px) {
-}
-
-@media only screen and (max-width: 500px) {
-	#profilePic {
-		width: 200px;
-		height: 200px;
-	}
 }
 
 #logo {
@@ -34,12 +14,6 @@ p {
 	color: #fff;
 	/* Visual */
 	background: #4aaaa5;
-}
-
-#profilePic {
-	float: left;
-	width: 200px;
-	margin: 0 20px 10px 0;
 }
 
 html,
@@ -60,4 +34,47 @@ body {
 	height: 70px;
 	text-align: center;
 	color: #8ea1a1;
+}
+
+/* media query for nav background color change*/
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 500px) {
+	#profilePic {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+/* Index */
+#profilePic {
+	float: left;
+	width: 200px;
+	margin: 0 20px 10px 0;
+}
+
+body {
+	background: url(https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+/* Portfolio */
+card-body {
+	width: 100%;
+}
+
+btn-primary {
+	border-left-width: 100%;
+	border-right-width: 100%;
+	border-left-width: 100%;
+	border-left-width: 75px;
+	margin-left: 0px;
+	border-right-width: 75px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
 }
