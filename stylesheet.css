@@ -1,5 +1,7 @@
 /* ALL */
-h1 {
+header {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: xx-large;
 	color: #4aaaa5;
 }
 
